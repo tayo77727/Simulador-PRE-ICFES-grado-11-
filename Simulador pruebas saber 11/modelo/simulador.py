@@ -1,3 +1,4 @@
+import random
 from modelo.estudiante import Estudiante
 from modelo import persistencia
 
@@ -9,12 +10,9 @@ class SimuladorModelo:
         self.vista_actual = "login"
         self.dark_mode = False
         
-        # Base de datos global
         self.banco_completo = persistencia.cargar_banco_preguntas()
-        
-        # --- NUEVOS ATRIBUTOS DE FLUJO ---
-        self.preguntas_filtradas = []  # Almacena las 10 preguntas de la materia elegida
-        self.pregunta_actual_index = 0 # Rastrea en cuál pregunta va el estudiante (0 a 9)
+        self.preguntas_filtradas = []  
+        self.pregunta_actual_index = 0 
         self.pregunta_en_pantalla = None  
         
         self.areas_disponibles = [
@@ -28,7 +26,6 @@ class SimuladorModelo:
     def validar_nombre_estudiante(self, nombre):
         if not isinstance(nombre, str):
             raise TypeError("El nombre del estudiante debe ser un texto válido.")
-        
         nombre_limpio = nombre.strip()
         if nombre_limpio == "":
             raise ValueError("El nombre del estudiante no puede estar vacío.")
@@ -39,36 +36,39 @@ class SimuladorModelo:
         self.estudiante_actual = Estudiante(self.nombre_usuario)
 
     def preparar_modulo_examen(self, area_name):
-        """Filtra TODAS las preguntas pertenecientes al área seleccionada y resetea el índice."""
+        """Filtra las preguntas del área, las mezcla aleatoriamente y toma un bloque de 10."""
         self.area_actual = area_name
-        self.preguntas_filtradas = [p for p in self.banco_completo if p["area"] == area_name]
+        todas_del_area = [p for p in self.banco_completo if p["area"] == area_name]
+        
+        # Mezclamos el mazo de preguntas completo del área
+        random.shuffle(todas_del_area)
+        
+        # Tomamos el subconjunto de máximo 10 preguntas
+        self.preguntas_filtradas = todas_del_area[:10]
         self.pregunta_actual_index = 0
         
         if self.preguntas_filtradas:
             self.pregunta_en_pantalla = self.preguntas_filtradas[self.pregunta_actual_index]
+            # Desordenamos las opciones de esta primera pregunta
+            random.shuffle(self.pregunta_en_pantalla["options"])
             return self.pregunta_en_pantalla
-        else:
-            self.pregunta_en_pantalla = None
-            return None
+        return None
 
     def avanzar_siguiente_pregunta(self):
-        """Avanza el puntero de la pregunta. Retorna True si hay una siguiente, False si terminó."""
+        """Incrementa el índice y desordena las opciones de la nueva pregunta."""
         self.pregunta_actual_index += 1
-        
         if self.pregunta_actual_index < len(self.preguntas_filtradas):
             self.pregunta_en_pantalla = self.preguntas_filtradas[self.pregunta_actual_index]
+            # Desordenamos las opciones de la siguiente pregunta
+            random.shuffle(self.pregunta_en_pantalla["options"])
             return True
-        else:
-            self.pregunta_en_pantalla = None
-            return False
+        self.pregunta_en_pantalla = None
+        return False
 
     def registrar_respuesta_estudiante(self, opcion_seleccionada):
-        """Guarda la respuesta de la pregunta actual en el objeto Estudiante."""
         if self.estudiante_actual and self.pregunta_en_pantalla:
             id_p = self.pregunta_en_pantalla["id"]
             self.estudiante_actual.registrar_respuesta(id_p, opcion_seleccionada)
-            
-            # Recalcular puntaje acumulado con base en las preguntas del área actual
             self.estudiante_actual.calcular_puntaje(self.preguntas_filtradas)
 
     def guardar_progreso_final(self):
@@ -77,9 +77,7 @@ class SimuladorModelo:
             persistencia.guardar_resultado_estudiante(datos)
 
     def obtener_diagnostico(self):
-        """Genera el reporte evaluando si aprobó o reprobó el simulador."""
         puntaje = self.estudiante_actual.puntaje_final if self.estudiante_actual else 0
-        
         if puntaje >= 300:
             return {
                 "aprobado": True,
