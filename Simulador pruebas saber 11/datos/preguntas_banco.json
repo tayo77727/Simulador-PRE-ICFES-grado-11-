@@ -1,0 +1,352 @@
+[
+    {
+        "id": 1,
+        "area": "Matemáticas",
+        "enunciado": "Si en una bolsa hay 3 bolas rojas y 7 azules, ¿cuál es la probabilidad de sacar una bola roja?",
+        "options": ["A. 30%", "B. 70%", "C. 3/7", "D. 50%"],
+        "correcta": "A. 30%"
+    },
+    {
+        "id": 2,
+        "area": "Matemáticas",
+        "enunciado": "¿Cuál es el valor de x en la ecuación cuadrática x² - 9 = 0?",
+        "options": ["A. x = 3", "B. x = -3", "C. x = 3 y x = -3", "D. x = 9"],
+        "correcta": "C. x = 3 y x = -3"
+    },
+    {
+        "id": 3,
+        "area": "Matemáticas",
+        "enunciado": "Un triángulo rectángulo tiene catetos de 3 cm y 4 cm. ¿Cuánto mide su hipotenusa?",
+        "options": ["A. 5 cm", "B. 7 cm", "C. 12 cm", "D. 25 cm"],
+        "correcta": "A. 5 cm"
+    },
+    {
+        "id": 4,
+        "area": "Matemáticas",
+        "enunciado": "Si el radio de un círculo se duplica, ¿cuántas veces aumenta su área?",
+        "options": ["A. Se duplica", "B. Aumenta 3 veces", "C. Aumenta 4 veces", "D. Permanece igual"],
+        "correcta": "C. Aumenta 4 veces"
+    },
+    {
+        "id": 5,
+        "area": "Matemáticas",
+        "enunciado": "¿Cuál es la media aritmética de los siguientes datos: 4, 8, 12, 16?",
+        "options": ["A. 8", "B. 10", "C. 12", "D. 14"],
+        "correcta": "B. 10"
+    },
+    {
+        "id": 6,
+        "area": "Matemáticas",
+        "enunciado": "En una función lineal f(x) = -3x + 5, la pendiente de la recta es:",
+        "options": ["A. 5", "B. 3", "C. -3", "D. -3x"],
+        "correcta": "C. -3"
+    },
+    {
+        "id": 7,
+        "area": "Matemáticas",
+        "enunciado": "¿A cuántos grados equivalen π/2 radianes?",
+        "options": ["A. 45°", "B. 90°", "C. 180°", "D. 360°"],
+        "correcta": "B. 90°"
+    },
+    {
+        "id": 8,
+        "area": "Matemáticas",
+        "enunciado": "Si resuelves el sistema de ecuaciones x + y = 10 y x - y = 2, el valor de x es:",
+        "options": ["A. 4", "B. 5", "C. 6", "D. 8"],
+        "correcta": "C. 6"
+    },
+    {
+        "id": 9,
+        "area": "Matemáticas",
+        "enunciado": "¿Qué porcentaje de 200 es 40?",
+        "options": ["A. 10%", "B. 20%", "C. 30%", "D. 40%"],
+        "correcta": "B. 20%"
+    },
+    {
+        "id": 10,
+        "area": "Matemáticas",
+        "enunciado": "La derivada de una función constante f(x) = 8 es:",
+        "options": ["A. 8", "B. 1", "C. 0", "D. x"],
+        "correcta": "C. 0"
+    },
+    {
+        "id": 11,
+        "area": "Lectura Crítica",
+        "enunciado": "¿Cuál es la función principal de un texto argumentativo?",
+        "options": ["A. Narrar un suceso cronológico", "B. Convencer o persuadir al lector", "C. Explicar un concepto científico", "D. Describir un paisaje"],
+        "correcta": "B. Convencer o persuadir al lector"
+    },
+    {
+        "id": 12,
+        "area": "Lectura Crítica",
+        "enunciado": "En la frase 'El coche corría como el viento', ¿qué figura literaria se utiliza?",
+        "options": ["A. Metáfora", "B. Símil o comparación", "C. Hipérbole", "D. Personificación"],
+        "correcta": "B. Símil o comparación"
+    },
+    {
+        "id": 13,
+        "area": "Lectura Crítica",
+        "enunciado": "Un conector disyuntivo se utiliza para presentar opciones excluyentes. Un ejemplo es:",
+        "options": ["A. Pero", "B. Además", "C. O", "D. Por lo tanto"],
+        "correcta": "C. O"
+    },
+    {
+        "id": 14,
+        "area": "Lectura Crítica",
+        "enunciado": "Identifique el sinónimo de la palabra 'efímero':",
+        "options": ["A. Duradero", "B. Pasajero", "C. Eterno", "D. Fuerte"],
+        "correcta": "B. Pasajero"
+    },
+    {
+        "id": 15,
+        "area": "Lectura Crítica",
+        "enunciado": "Si un autor cita estudios científicos en su columna de opinión, busca principalmente:",
+        "options": ["A. Entretener al lector con anécdotas", "B. Darle validez y respaldo a sus argumentos", "C. Hacer el texto más largo", "D. Contradecir sus propias ideas"],
+        "correcta": "B. Darle validez y respaldo a sus argumentos"
+    },
+    {
+        "id": 16,
+        "area": "Lectura Crítica",
+        "enunciado": "¿Cuál de las siguientes opciones describe una premisa en un argumento?",
+        "options": ["A. La conclusión definitiva", "B. Una afirmación que sirve de base para el razonamiento", "C. Una falacia lógica evidente", "D. La opinión personal del oyente"],
+        "correcta": "B. Una afirmación que sirve de base para el razonamiento"
+    },
+    {
+        "id": 17,
+        "area": "Lectura Crítica",
+        "enunciado": "Un texto caricaturesco o satírico utiliza principalmente el humor con el fin de:",
+        "options": ["A. Informar datos numéricos exactos", "B. Criticar o reflexionar sobre una realidad social", "C. Evitar que el lector piense", "D. Promocionar un producto comercial"],
+        "correcta": "B. Criticar o reflexionar sobre una realidad social"
+    },
+    {
+        "id": 18,
+        "area": "Lectura Crítica",
+        "enunciado": "La diferencia entre un hecho y una opinión es que el hecho:",
+        "options": ["A. Es subjetivo", "B. Puede ser verificado objetivamente", "C. Depende de las emociones", "D. No tiene importancia"],
+        "correcta": "B. Puede ser verificado objetivamente"
+    },
+    {
+        "id": 19,
+        "area": "Lectura Crítica",
+        "enunciado": "Si un texto presenta la estructura 'Causa-Efecto', el conector ideal para la conclusión es:",
+        "options": ["A. En consecuencia", "B. Por el contrario", "C. Inicialmente", "D. A veces"],
+        "correcta": "A. En consecuencia"
+    },
+    {
+        "id": 20,
+        "area": "Lectura Crítica",
+        "enunciado": "La tesis de un ensayo es:",
+        "options": ["A. El resumen de todo el documento", "B. La postura o idea central que el autor defiende", "C. La lista de referencias bibliográficas", "D. Una pregunta sin respuesta"],
+        "correcta": "B. La postura o idea central que el autor defiende"
+    },
+    {
+        "id": 21,
+        "area": "Ciencias Naturales",
+        "enunciado": "Un compuesto químico con pH igual a 2 se clasifica como:",
+        "options": ["A. Una base fuerte", "B. Una sustancia neutra", "C. Un ácido fuerte", "D. Una base débil"],
+        "correcta": "C. Un ácido fuerte"
+    },
+    {
+        "id": 22,
+        "area": "Ciencias Naturales",
+        "enunciado": "¿Cuál es el organelo celular encargado de la producción de energía (ATP)?",
+        "options": ["A. Núcleo", "B. Mitocondria", "C. Ribosoma", "D. Aparato de Golgi"],
+        "correcta": "B. Mitocondria"
+    },
+    {
+        "id": 23,
+        "area": "Ciencias Naturales",
+        "enunciado": "De acuerdo con la ley de conservación de la energía, esta:",
+        "options": ["A. Se destruye al usarse", "B. Se crea de la nada", "C. No se crea ni se destruye, solo se transforma", "D. Desaparece en el espacio vacío"],
+        "correcta": "C. No se crea ni se destruye, solo se transforma"
+    },
+    {
+        "id": 24,
+        "area": "Ciencias Naturales",
+        "enunciado": "Un automóvil frena bruscamente y los pasajeros tienden a irse hacia adelante. Esto ocurre debido a:",
+        "options": ["A. La ley de la gravedad", "B. La fuerza de rozamiento", "C. La inercia", "D. La aceleración centrípeta"],
+        "correcta": "C. La inercia"
+    },
+    {
+        "id": 25,
+        "area": "Ciencias Naturales",
+        "enunciado": "En una cadena alimenticia, las plantas verdes actúan como:",
+        "options": ["A. Consumidores primarios", "B. Descomponedores", "C. Productores", "D. Depredadores"],
+        "correcta": "C. Productores"
+    },
+    {
+        "id": 26,
+        "area": "Ciencias Naturales",
+        "enunciado": "El paso del estado sólido al estado gaseoso sin pasar por el líquido se denomina:",
+        "options": ["A. Evaporación", "B. Sublimación", "C. Fusión", "D. Condensación"],
+        "correcta": "B. Sublimación"
+    },
+    {
+        "id": 27,
+        "area": "Ciencias Naturales",
+        "enunciado": "¿Cuál de los siguientes gases es el principal responsable del efecto invernadero acelerado?",
+        "options": ["A. Oxígeno (O2)", "B. Nitrógeno (N2)", "C. Dióxido de carbono (CO2)", "D. Argón (Ar)"],
+        "correcta": "C. Dióxido de carbono (CO2)"
+    },
+    {
+        "id": 28,
+        "area": "Ciencias Naturales",
+        "enunciado": "Un enlace químico donde dos átomos comparten electrones se conoce como:",
+        "options": ["A. Enlace iónico", "B. Enlace covalente", "C. Enlace metálico", "D. Fuerzas de Van der Waals"],
+        "correcta": "B. Enlace covalente"
+    },
+    {
+        "id": 29,
+        "area": "Ciencias Naturales",
+        "enunciado": "El tipo de energía que posee un cuerpo debido a su altura respecto al suelo es:",
+        "options": ["A. Energía cinética", "B. Energía térmica", "C. Energía potencial gravitatoria", "D. Energía química"],
+        "correcta": "C. Energía potencial gravitatoria"
+    },
+    {
+        "id": 30,
+        "area": "Ciencias Naturales",
+        "enunciado": "La principal función de las plaquetas en la sangre humana es:",
+        "options": ["A. Transportar oxígeno", "B. Defender contra infecciones", "C. Participar en la coagulación sanguínea", "D. Regular la temperatura"],
+        "correcta": "C. Participar en la coagulación sanguínea"
+    },
+    {
+        "id": 31,
+        "area": "Sociales y Ciudadanas",
+        "enunciado": "La división de los poderes públicos en Ejecutivo, Legislativo y Judicial busca principalmente:",
+        "options": ["A. Evitar la concentración del poder en un solo órgano", "B. Centralizar las decisiones del Estado", "C. Agilizar la aprobación de leyes", "D. Reducir los costos del gobierno"],
+        "correcta": "A. Evitar la concentración del poder en un solo órgano"
+    },
+    {
+        "id": 32,
+        "area": "Sociales y Ciudadanas",
+        "enunciado": "La Constitución Política de Colombia de 1991 define al Estado como:",
+        "options": ["A. Un Estado monárquico absolutista", "B. Un Estado Social de Derecho", "C. Una dictadura militar parlamentaria", "D. Un Estado federal independiente"],
+        "correcta": "B. Un Estado Social de Derecho"
+    },
+    {
+        "id": 33,
+        "area": "Sociales y Ciudadanas",
+        "enunciado": "El mecanismo constitucional que permite a los ciudadanos votar para aprobar o rechazar un proyecto de ley es:",
+        "options": ["A. El plebiscito", "B. El referendo", "C. La consulta popular", "D. La tutela"],
+        "correcta": "B. El referendo"
+    },
+    {
+        "id": 34,
+        "area": "Sociales y Ciudadanas",
+        "enunciado": "La Revolución Francesa (1789) promovió a nivel global los ideales fundamentales de:",
+        "options": ["A. Esclavitud, orden y riqueza", "B. Libertad, igualdad y fraternidad", "C. Monarquía, religión y tradición", "D. Capitalismo, industria y consumo"],
+        "correcta": "B. Libertad, igualdad y fraternidad"
+    },
+    {
+        "id": 35,
+        "area": "Sociales y Ciudadanas",
+        "enunciado": "Cuando un ciudadano considera que una autoridad pública violó directamente sus derechos fundamentales, el mecanismo de protección inmediata es:",
+        "options": ["A. La acción popular", "B. La acción de tutela", "C. El derecho de petición", "D. El referendo abrogatorio"],
+        "correcta": "B. La acción de tutela"
+    },
+    {
+        "id": 36,
+        "area": "Sociales y Ciudadanas",
+        "enunciado": "El periodo de la historia de Colombia del siglo XX caracterizado por fuertes enfrentamientos bipartidistas se conoce como:",
+        "options": ["A. La Patria Boba", "B. La época de La Violencia", "C. La Regeneración", "D. El Frente Nacional"],
+        "correcta": "B. La época de La Violencia"
+    },
+    {
+        "id": 37,
+        "area": "Sociales y Ciudadanas",
+        "enunciado": "El sistema económico basado en el libre mercado y la propiedad privada de los medios de producción es:",
+        "options": ["A. El socialismo", "B. El feudalismo", "C. El capitalismo", "D. El mercantilismo"],
+        "correcta": "C. El capitalismo"
+    },
+    {
+        "id": 38,
+        "area": "Sociales y Ciudadanas",
+        "enunciado": "Un comportamiento ciudadano que refleja los valores de los mecanismos de participación democrática es:",
+        "options": ["A. Evadir el pago de impuestos estatales", "B. Votar a conciencia en las jornadas electorales", "C. Bloquear servicios de salud esenciales", "D. Imponer opiniones personales mediante la fuerza"],
+        "correcta": "B. Votar a conciencia en las jornadas electorales"
+    },
+    {
+        "id": 39,
+        "area": "Sociales y Ciudadanas",
+        "enunciado": "La principal función del Banco de la República en Colombia es:",
+        "options": ["A. Financiar campañas de partidos políticos", "B. Emitir la moneda legal y controlar la inflación", "C. Cobrar el impuesto predial de los municipios", "D. Otorgar créditos de consumo directos a todos los ciudadanos"],
+        "correcta": "B. Emitir la moneda legal y controlar la inflación"
+    },
+    {
+        "id": 40,
+        "area": "Sociales y Ciudadanas",
+        "enunciado": "¿Qué entidad en Colombia se encarga de velar por el cumplimiento de los derechos humanos y defender el interés público?",
+        "options": ["A. El Congreso de la República", "B. La Defensoría del Pueblo", "C. El Ministerio de Defensa", "D. La Superintendencia de Industria y Comercio"],
+        "correcta": "B. La Defensoría del Pueblo"
+    },
+    {
+        "id": 41,
+        "area": "Inglés",
+        "enunciado": "Complete the sentence: 'If I ___ more time, I would travel around the world.'",
+        "options": ["A. have", "B. had", "C. having", "D. will have"],
+        "correcta": "B. had"
+    },
+    {
+        "id": 42,
+        "area": "Inglés",
+        "enunciado": "Choose the correct word to complete: 'She is looking forward ___ her new school.'",
+        "options": ["A. to start", "B. starting", "C. to starting", "D. for start"],
+        "correcta": "C. to starting"
+    },
+    {
+        "id": 43,
+        "area": "Inglés",
+        "enunciado": "What is the opposite of the word 'sharp'?",
+        "options": ["A. Blunt", "B. Bright", "C. Clever", "D. Quick"],
+        "correcta": "A. Blunt"
+    },
+    {
+        "id": 44,
+        "area": "Inglés",
+        "enunciado": "Complete the conversation: 'How long have you been studying English?' - '___ three years.'",
+        "options": ["A. Since", "B. For", "C. Ago", "D. During"],
+        "correcta": "B. For"
+    },
+    {
+        "id": 45,
+        "area": "Inglés",
+        "enunciado": "Select the correct option: 'By the time the police arrived, the thief ___.'",
+        "options": ["A. has escaped", "B. had escaped", "C. escapes", "D. was escaping"],
+        "correcta": "B. had escaped"
+    },
+    {
+        "id": 46,
+        "area": "Inglés",
+        "enunciado": "Complete: 'You don't like spicy food, ___?'",
+        "options": ["A. do you", "B. don't you", "C. like you", "D. aren't you"],
+        "correcta": "A. do you"
+    },
+    {
+        "id": 47,
+        "area": "Inglés",
+        "enunciado": "Identify the word that belongs to a different category:",
+        "options": ["A. Apple", "B. Potato", "C. Banana", "D. Watermelon"],
+        "correcta": "B. Potato"
+    },
+    {
+        "id": 48,
+        "area": "Inglés",
+        "enunciado": "Complete the sentence: 'I am exhausted. I ___ all morning.'",
+        "options": ["A. have been working", "B. worked", "C. work", "D. am working"],
+        "correcta": "A. have been working"
+    },
+    {
+        "id": 49,
+        "area": "Inglés",
+        "enunciado": "Which sentence is written in the passive voice?",
+        "options": ["A. The chef cooked a delicious dinner", "B. The book was written by a famous author", "C. She will visit her family tomorrow", "D. They are building a new house"],
+        "correcta": "B. The book was written by a famous author"
+    },
+    {
+        "id": 50,
+        "area": "Inglés",
+        "enunciado": "Complete: 'We should avoid ___ plastic bags if we want to protect the environment.'",
+        "options": ["A. use", "B. to use", "C. using", "D. used"],
+        "correcta": "C. using"
+    }
+]
